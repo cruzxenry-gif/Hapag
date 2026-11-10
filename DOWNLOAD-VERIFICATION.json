@@ -1,0 +1,25 @@
+{
+  "verifiedAtUtc": "2026-11-10T15:05:53.453043+00:00",
+  "binaryArtifactCommit": "dc2a613483708919470850ea7580bb7093b2dc40",
+  "downloads": [
+    {
+      "url": "https://github.com/cruzxenry-gif/Hapag/raw/refs/heads/downloads/hapag-0.7.0/Hapag-0.7.0-debug.apk",
+      "bytes": 62617534,
+      "sha256": "8a4baff24441a4baa6330deb3e5d6fe530ece3206fc65d59b71127fdca8b461b",
+      "verified": true
+    },
+    {
+      "url": "https://github.com/cruzxenry-gif/Hapag/raw/refs/heads/downloads/hapag-0.7.0/Hapag-0.7.0-debug.zip",
+      "bytes": 37115956,
+      "sha256": "1970febd43e5a2d2a0ef26e10f5ab2662a065d4f8cdee3c1bba56db8ab4f174b",
+      "verified": true
+    },
+    {
+      "url": "https://github.com/cruzxenry-gif/Hapag/raw/refs/heads/downloads/hapag-0.7.0/Hapag-0.7.0-arm64-debug.apk",
+      "bytes": 29834043,
+      "sha256": "acf46e4616db503dc8f7e727b319a3cf0151f5706ca73564ea85caec5de425b5",
+      "verified": true
+    }
+  ],
+  "zipCrcAndIdenticalApk": true
+}

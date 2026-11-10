@@ -43,3 +43,9 @@ The source-backed design check preserves 79 entries, resolves 32 references, che
 Both APKs verify with certificate SHA-256 `a4c8e496c0d550a52ec823f3869c61f7e9abc9a38259f06254ef94ebd4ffbc5f`, the existing Hapag development signer. Version/package/minimum/target SDK and absent Internet/network-state permissions were checked from each APK. Both pass 16 KiB alignment; the ARM64 package retains byte-identical code/resources/model entries while removing other-processor libraries. Its physical ARM64 runtime is not certified. The ZIP contains one identical universal APK and passes its CRC check.
 
 Install over existing Hapag to retain the diary; extract the APK first when using ZIP. These remain development builds. Native evidence uses AOSP x86_64 emulators with SwiftShader; physical-device frame time, full TalkBack, gesture-navigation mode and camera/provider certification are outside this pass.
+
+## Public downloads
+
+All three public raw downloads were fetched after publication and matched the byte counts and SHA-256 hashes above. The downloaded ZIP passes CRC and contains one byte-identical universal APK. Binary artifact commit: `dc2a613483708919470850ea7580bb7093b2dc40`. The artifact branch retains download verification; the local copy (retained in workspace) records the same checks.
+
+[Public download verification](DOWNLOAD-VERIFICATION.json)
