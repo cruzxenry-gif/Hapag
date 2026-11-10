@@ -1,0 +1,3 @@
+d858236d3db7de50feceac8b335d8a470d2683fedacdcf4db963fc8d59b8cc08  Hapag-0.6.0-debug.apk
+aabe0156ab03e69b7b93013b4b6c93aa19a890a77dcb86fd749f193fa2b618e8  Hapag-0.6.0-debug.zip
+f778018aa20c405766e559e67f6a9d54e3364b1d714ac32fa1a06cd280efbcc8  Hapag-0.6.0-arm64-debug.apk
