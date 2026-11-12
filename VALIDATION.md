@@ -21,3 +21,9 @@ See capture manifest (retained in workspace), review (retained in workspace), de
 | Hapag-0.8.1-arm64-debug.apk | 29,907,771 | `3565a158b6ea6437029a691d757fb758e75edd22dc3fd6509249ddb20e5b373b` |
 
 Both APKs pass signature/version/API/permission and 16 KiB alignment checks using retained signer a4c8e496c0d550a52ec823f3869c61f7e9abc9a38259f06254ef94ebd4ffbc5f. ARM64 retained code/resources/model entries are byte-identical to the universal APK. ZIP CRC passes and it contains one byte-identical universal APK. Extract it before installing. These remain debug builds. Public-download proof is added after publication.
+
+## Public downloads
+
+All three public raw downloads were fetched after publication and matched the byte counts and SHA-256 hashes above. The downloaded ZIP passes CRC and contains one byte-identical universal APK. Binary artifact commit: `c141478f7bcf1475125ae68da4c148effea59517`. The artifact branch retains download verification; the local copy (retained in workspace) records the same checks.
+
+[Public download verification](DOWNLOAD-VERIFICATION.json)
