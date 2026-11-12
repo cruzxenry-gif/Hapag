@@ -33,3 +33,9 @@ The capture manifest (retained in workspace), source proofs, passing logs, sourc
 Both APKs verify with signer SHA-256 `a4c8e496c0d550a52ec823f3869c61f7e9abc9a38259f06254ef94ebd4ffbc5f` and pass 16 KiB alignment. Package/version/API values and absent Internet/network-state permissions were checked. The optional ARM64 package retains identical included code/resources/model entries and removes other-processor libraries; physical ARM64 runtime is not certified. The ZIP contains one byte-identical universal APK and passes CRC.
 
 Install over existing Hapag to keep the diary. Extract the APK before using ZIP. These remain development builds. Public-download verification is recorded after publication.
+
+## Public downloads
+
+All three public raw downloads were fetched after publication and matched the byte counts and SHA-256 hashes above. The downloaded ZIP passes CRC and contains one byte-identical universal APK. Binary artifact commit: `4a3601baffe26d82687206b663f44c79fdc26062`. The artifact branch retains download verification; the local copy (retained in workspace) records the same checks.
+
+[Public download verification](DOWNLOAD-VERIFICATION.json)
