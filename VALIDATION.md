@@ -23,3 +23,9 @@ Native evidence uses AOSP x86_64 software emulation with animations disabled and
 | Hapag-0.8.2-arm64-debug.apk | 29,903,675 | `a55d4e571e9fc2ffd2d6d3c2446d81049c7cb2c00f8dc18d2910dc4bd1aec147` |
 
 Both APKs pass signature, version/API/permission and 16 KiB alignment checks using the retained development signer. The ARM64 package retains byte-identical code/resources/model entries. The ZIP passes CRC and contains one byte-identical universal APK; extract it before installing. These are debug builds. Public-download verification follows publication.
+
+## Public downloads
+
+All three public raw downloads were fetched after publication and matched the byte counts and SHA-256 hashes above. The downloaded ZIP passes CRC and contains one byte-identical universal APK. Binary artifact commit: `2ca504f7ed69f30e5196b267cf9825b571427d4f`. The artifact branch retains download verification; the local copy (retained in workspace) records the same checks.
+
+[Public download verification](DOWNLOAD-VERIFICATION.json)
