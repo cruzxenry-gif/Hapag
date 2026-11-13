@@ -19,3 +19,9 @@ Same package ph.hapag and retained development signer, min API 26 / target 35, s
 | Hapag-0.8.3-arm64-debug.apk | 29903675 | `6a2489526120b450b13df74fb02e48acb11593d0c13f9674d5355371dc268cfd` |
 
 Both APKs pass signer/version/API/permission and 16 KiB alignment checks. The ARM64 package retains byte-identical code/resources/model entries; ZIP CRC passes and contains a byte-identical universal APK. Extract ZIP before installation. These remain debug builds. No physical ARM64 runtime, frame-time, full TalkBack or app-wide device-matrix certification is claimed. Public-download verification follows publication.
+
+## Public downloads
+
+All three public raw downloads were fetched after publication and matched the byte counts and SHA-256 hashes above. The downloaded ZIP passes CRC and contains one byte-identical universal APK. Binary artifact commit: `f415f61a103e15c1ba4360f095046ebaf8c9f549`. The artifact branch retains download verification; the local copy (retained in workspace) records the same checks.
+
+[Public download verification](DOWNLOAD-VERIFICATION.json)
